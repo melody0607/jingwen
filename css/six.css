@@ -1,0 +1,11 @@
+.tolife{
+    width: 1100px;
+    height: 550px;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    padding-top: 80px;
+    font-size: 20px;
+	color: aliceblue;
+	line-height: 60px;
+	letter-spacing: 10px;
+	font-family:"宋体";}

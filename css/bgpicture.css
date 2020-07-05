@@ -1,0 +1,73 @@
+html, body, .container,.bgp,.bgp section { height: 100%;}
+
+.bgp > nav {
+	position: fixed;
+	z-index: 9999;
+	right: 25px;
+	top: 50%;
+	width: 16px;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.bgp > nav a {
+	display: block;
+	position: relative;
+	z-index: 9999;
+	color: transparent;
+	width: 10px;
+	height: 10px;
+	outline: none;
+	margin: 15px 0;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+
+.no-touch .bgp > nav a:hover {
+	background: rgba(255,255,255,0.6);
+}
+
+.bgp > nav a.cbp-fbcurrent {
+	background: #fff;
+}
+
+/* background-attachment does the trick */
+.bgp section {
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.no-touch .bgp section {
+	background-attachment: fixed;
+}
+
+
+#p1 {
+	background-image: url(../img/1守门人.jpg);
+	
+}
+
+#p2 {
+	background-image: url(../img/2死生亦大矣.jpg);
+}
+
+#p3 {
+	background-image: url(../img/3恐惧与偏见.jpg);
+}
+
+#p4 {
+	background-image:url(../img/4死亡与守护.jpg);
+}
+
+#p5 {
+	background-image: url(../img/5铭记.jpg);
+}
+
+#p6 {
+	background-image: url(../img/6致生命.jpg);
+}
+
